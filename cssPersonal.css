@@ -219,8 +219,8 @@ h3{
 
 .thumbnail img{
     border: 1px solid #818181;
-    border-radius:1px !important;
     transition: box-shadow 0.5s;
+    border-radius:1px !important;
 }
 
 .thumbnail:hover{
@@ -257,12 +257,27 @@ h3{
     box-shadow: 5px 0px 40px rgba(0,0,0, .9);
 }
 
-#logo{
+#panelSegundo{
     border: 1px solid #818181;
-    border-radius:1px !important;
     transition: box-shadow 0.5s;
+    border-radius:1px !important;
+}
+
+#panelSegundo:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .9);
+}
+
+#logo{
+    transition: box-shadow 0.5s;
+    background-color: transparent !important;
 }
 
 #logo:hover{
     box-shadow: 5px 0px 40px rgba(0,0,0, .9);
+}
+
+#inicio{
+    background-image: url("https://s31.postimg.org/65pqti5qz/0c02f0c03273f913ef307ee4703ef50b_d354kwx.jpg");
+    padding: 20px;
+    background-size: 100% auto;
 }
